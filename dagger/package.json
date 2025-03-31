@@ -9,6 +9,6 @@
     "@dagger.io/dagger": "file:sdk"
   },
   "scripts": {
-    "postinstall": "pwd && ls -la && cp ./test/sdk.index-fixed.ts ./sdk/index.ts"
+    "postinstall": "pwd && ls -la ./node_modules && cp ./test/sdk.index-fixed.ts ./sdk/index.ts"
   }
 }
