@@ -9,6 +9,6 @@
     "@dagger.io/dagger": "file:sdk"
   },
   "scripts": {
-    "postinstall": "copy .\test\sdk.index-fixed.ts .\sdk\index.ts"
+    "postinstall": "copy .\\test\\sdk.index-fixed.ts .\\sdk\\index.ts"
   }
 }
